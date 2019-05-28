@@ -1,0 +1,151 @@
+.home-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 60px;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    overflow: auto;
+}
+
+.leftside {
+    flex: 0 0 25%;
+    background-color: #f8f8f8;
+    font-size: 18px;
+    color: #444040;
+}
+
+.leftside>div {
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.leftside>div i {
+    margin-right: 10px;
+}
+
+.leftside>div:hover {
+    background-color: #ade2ca;
+}
+
+.rightside {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightside-scroll {
+    flex: 1 0 0;
+    overflow: auto;
+}
+
+.checkedStyle {
+    background-color: #40b883;
+    color: #fff;
+}
+
+.addSide {
+    display: flex;
+    margin-top: 15px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addIcon {
+    height: 50px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.addIcon i {
+    margin-right: 10px;
+}
+
+.inputItem {
+    margin-right: 15px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.inputItem>span {
+    height: 40px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.inputItem>input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ade2ca;
+    background-color: #f0f9f5;
+    color: #666;
+    font-size: 16px;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 77;
+}
+
+.dialog {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    width: 400px;
+    height: 150px;
+    background-color: #fff;
+    z-index: 8888;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 16px;
+    box-shadow: 0 1px 2px 2px #ecf0f4;
+}
+
+.dialog input {
+    width: 65%;
+    height: 22px;
+}
+
+.dialog_foot {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dialog_foot .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.cancel {
+    margin-right: 20px;
+}
