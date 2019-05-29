@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="(submission,index) in submissions" :key="index" class="list-item">
+    <div v-for="(submission,index) in submissions" :key="submission.id" class="list-item">
       <div>
         <figure class="media-left">
           <img class="image is-64x64" :src="submission.submissionImage">
