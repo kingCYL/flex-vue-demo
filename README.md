@@ -6,6 +6,7 @@
 ### 3.条件渲染，列表渲染
 ### 4.双向绑定
 ### 5.功能拆分（将界面拆分成多个独立的组件）
+### 6.生命周期
 
 
 
@@ -30,4 +31,3 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
